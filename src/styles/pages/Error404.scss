@@ -1,0 +1,47 @@
+.error404 {
+    text-align: center;
+    color: #ff6060;
+    padding-bottom: 10px;
+  
+    h1 {
+      font-size: 260px;
+      padding: 20px 0 10px;
+      margin: 0;
+    }
+  
+    p {
+      font-size: 24px;
+      font-weight: 700;
+      padding-bottom: 40px;
+    }
+  
+    a span {
+      text-decoration: underline;
+      color: #ff6060;
+  
+      &:hover {
+        color: #ffa5a5;
+        transition: 0.3s all;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .error404 {
+      h1 {
+        font-size: 25vw;
+      }
+  
+      p {
+        font-size: 18px;
+        text-align: center;
+        padding-inline: 10px;
+      }
+  
+      a span {
+        font-size: 14px;
+        padding-inline: 10px;
+      }
+    }
+  }
+  

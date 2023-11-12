@@ -1,0 +1,25 @@
+.logement-title {
+    color: #ff6060;
+  
+    h1 {
+      font-size: 36px;
+      font-weight: 500;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .description-zone .logement-title-and-description .logement-title {
+      h1 {
+        font-size: 3.5vw;
+      }
+  
+      p {
+        font-size: 2.5vw;
+      }
+    }
+  }
+  

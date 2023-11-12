@@ -1,0 +1,32 @@
+.logement-host {
+    display: flex;
+    align-items: center;
+  
+    span {
+      color: #ff6060;
+      font-size: 18px;
+      width: 90px;
+      text-align: right;
+      margin: 0 10px;
+    }
+  
+    img {
+      width: 64px;
+      border-radius: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .logement-host {
+      img {
+        width: 10vw;
+        margin: 0 1vw;
+      }
+  
+      span {
+        font-size: 3vw;
+        width: 10vw;
+      }
+    }
+  }
+  

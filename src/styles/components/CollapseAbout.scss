@@ -1,0 +1,17 @@
+.drop-down-zone {
+    list-style: none;
+    margin-inline: 150px;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .drop-down-zone {
+      margin-inline: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .drop-down-zone {
+      margin-inline: 20px;
+    }
+  }
+  
